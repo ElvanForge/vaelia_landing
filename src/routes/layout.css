@@ -1,0 +1,156 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #0f172a;
+  --color-brand-card: #1e293b;
+  --color-brand-teal: #008e89;
+  --color-brand-teal-light: #00b0aa;
+  --color-brand-teal-dark: #006b67;
+  --color-off-white: #f8fafc;
+  --color-text-gray: #94a3b8;
+
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    background-color: var(--color-brand-bg);
+    color: var(--color-text-gray);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    color: var(--color-off-white);
+    font-weight: 700;
+  }
+}
+
+/* Premium custom styling utilities */
+
+/* Sleek dark scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #008e89;
+}
+
+/* Glow Card styling */
+.glow-card {
+  position: relative;
+  background: #1e293b;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glow-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 12px;
+  padding: 1.5px;
+  background: linear-gradient(135deg, rgba(0, 142, 137, 0.4) 0%, rgba(30, 41, 59, 0) 50%, rgba(0, 142, 137, 0.1) 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.glow-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px -10px rgba(0, 142, 137, 0.15);
+  border-color: rgba(0, 142, 137, 0.2);
+}
+
+.glow-card:hover::before {
+  opacity: 1;
+}
+
+/* Primary Teal Glow Button */
+.btn-primary {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-brand-teal);
+  color: var(--color-off-white);
+  font-family: var(--font-display);
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+  box-shadow: 0 4px 14px 0 rgba(0, 142, 137, 0.3);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-brand-teal-light);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px 0 rgba(0, 142, 137, 0.45);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+/* Text Gradient Effect */
+.text-gradient-teal {
+  background: linear-gradient(135deg, #f8fafc 30%, #008e89 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-emerald {
+  background: linear-gradient(135deg, #008e89 0%, #34d399 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Micro-animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 8s ease-in-out infinite;
+}
