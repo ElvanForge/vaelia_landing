@@ -1,18 +1,6 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-
 	// State for slot capacity tracker
 	let remainingSlots = $state(2);
-	
-	// Dynamic Formspree redirect URL
-	let thankYouUrl = $state('');
-
-	onMount(() => {
-		thankYouUrl = window.location.origin + '/thank-you';
-	});
-
-	// Stripe checkout link for fast-track enrollment
-	const stripePaymentUrl = "https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05";
 </script>
 
 <svelte:head>
@@ -297,32 +285,11 @@
 					
 					<div class="p-6 space-y-4">
 						<div class="text-xs font-mono text-brand-teal font-bold tracking-wide">01 // FOUNDATION</div>
-						<h3 class="text-xl font-bold text-off-white">Module 1 (Ch 1-4)</h3>
+						<h3 class="text-xl font-bold text-off-white">Module 01: Technical Systems & Infrastructure</h3>
 						<p class="text-sm text-text-gray leading-relaxed">
-							Foundational technical English, focusing on digital habits, tool usage, and systems logic.
+							A comprehensive deep-dive into digital feedback loops, the evolution of cloud-based training, automated operational machinery, and sustainable urban infrastructure modeling, designed to bridge the gap between technical fluency and strategic communication.
 						</p>
 					</div>
-				</div>
-				
-				<div class="p-6 pt-0">
-					<ul class="space-y-2 border-t border-brand-card/60 pt-4 text-xs font-mono text-text-gray/80">
-						<li class="flex items-center space-x-2">
-							<span class="w-1.5 h-1.5 rounded-full bg-brand-teal"></span>
-							<span>Ch 1: Digital Habits & Systems English</span>
-						</li>
-						<li class="flex items-center space-x-2">
-							<span class="w-1.5 h-1.5 rounded-full bg-brand-teal"></span>
-							<span>Ch 2: Tool Configuration Lexicon</span>
-						</li>
-						<li class="flex items-center space-x-2">
-							<span class="w-1.5 h-1.5 rounded-full bg-brand-teal"></span>
-							<span>Ch 3: Logical Constraints Syntax</span>
-						</li>
-						<li class="flex items-center space-x-2">
-							<span class="w-1.5 h-1.5 rounded-full bg-brand-teal"></span>
-							<span>Ch 4: Error Handling Grammars</span>
-						</li>
-					</ul>
 				</div>
 			</div>
 
@@ -342,28 +309,11 @@
 					
 					<div class="p-6 space-y-4">
 						<div class="text-xs font-mono text-brand-teal font-bold tracking-wide">02 // DOCUMENTATION</div>
-						<h3 class="text-xl font-bold text-off-white">Module 2 (Ch 5-7)</h3>
+						<h3 class="text-xl font-bold text-off-white">Module 02: Advanced Automation & Reliability</h3>
 						<p class="text-sm text-text-gray leading-relaxed">
-							Professional technical documentation, workflow reporting, and team-based communication.
+							An in-depth analysis of machine-to-machine communication, automated triage protocols, and the technical governance required to maintain system reliability in decentralized environments.
 						</p>
 					</div>
-				</div>
-				
-				<div class="p-6 pt-0">
-					<ul class="space-y-2 border-t border-brand-card/60 pt-4 text-xs font-mono text-text-gray/80">
-						<li class="flex items-center space-x-2">
-							<span class="w-1.5 h-1.5 rounded-full bg-brand-teal/50"></span>
-							<span>Ch 5: Structural Spec Documentation</span>
-						</li>
-						<li class="flex items-center space-x-2">
-							<span class="w-1.5 h-1.5 rounded-full bg-brand-teal/50"></span>
-							<span>Ch 6: Incidents & Workflow Reporting</span>
-						</li>
-						<li class="flex items-center space-x-2">
-							<span class="w-1.5 h-1.5 rounded-full bg-brand-teal/50"></span>
-							<span>Ch 7: Asynchronous Communication</span>
-						</li>
-					</ul>
 				</div>
 			</div>
 
@@ -383,33 +333,37 @@
 					
 					<div class="p-6 space-y-4">
 						<div class="text-xs font-mono text-brand-teal font-bold tracking-wide">03 // LEADERSHIP</div>
-						<h3 class="text-xl font-bold text-off-white font-display">Module 3 (Ch 8-10)</h3>
+						<h3 class="text-xl font-bold text-off-white font-display">Module 03: Sustainable Urban Strategy</h3>
 						<p class="text-sm text-text-gray leading-relaxed">
-							Strategic technical communication, system optimization, and leadership discourse.
+							A rigorous exploration of green infrastructure modeling, biodiversity management, and the policy-engineering interface necessary to build resilient, resource-efficient smart cities.
 						</p>
 					</div>
-				</div>
-				
-				<div class="p-6 pt-0">
-					<ul class="space-y-2 border-t border-brand-card/60 pt-4 text-xs font-mono text-text-gray/80">
-						<li class="flex items-center space-x-2">
-							<span class="w-1.5 h-1.5 rounded-full bg-brand-teal/30"></span>
-							<span>Ch 8: Architecture Decision Proposals</span>
-						</li>
-						<li class="flex items-center space-x-2">
-							<span class="w-1.5 h-1.5 rounded-full bg-brand-teal/30"></span>
-							<span>Ch 9: Performance Optimization Reviews</span>
-						</li>
-						<li class="flex items-center space-x-2">
-							<span class="w-1.5 h-1.5 rounded-full bg-brand-teal/30"></span>
-							<span>Ch 10: Technical Alignment & Leadership</span>
-						</li>
-					</ul>
 				</div>
 			</div>
 
 		</div>
 	</section>
+
+	<!-- Program Logistics -->
+	<div id="logistics" class="py-24 px-6 max-w-7xl mx-auto border-t border-brand-card/40">
+		<div class="space-y-6">
+			<h2 class="text-3xl font-bold tracking-tight text-off-white font-display">Program Logistics</h2>
+			<div class="w-16 h-1 bg-brand-teal rounded-full"></div>
+			
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8">
+				<div class="glow-card bg-brand-card/40 p-6 border border-brand-card">
+					<p class="text-text-gray leading-relaxed">
+						Pilot Cohort Schedule: Tuesdays & Thursdays at 18:00 Tbilisi Time. The program consists of 8 sessions split between Technical Briefings and Engineering Labs.
+					</p>
+				</div>
+				<div class="glow-card bg-brand-card/40 p-6 border border-brand-card">
+					<p class="text-text-gray leading-relaxed">
+						Designed by a technical lead and curriculum developer, Vaelia is a technical communications workshop—not a language class—focused on the specific lexical and syntactic hurdles engineers face in high-stakes environments.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- Lead Contact Form Section -->
 	<section id="apply" class="py-24 px-6 bg-brand-card/20 border-t border-brand-card/40 relative overflow-hidden">
@@ -434,80 +388,8 @@
 			<!-- Right column: The Form block -->
 			<div class="lg:col-span-7 flex flex-col justify-between">
 				<div class="glow-card bg-brand-card/50 p-8 border border-brand-card/85 shadow-lg">
-					<form 
-						action="https://formspree.io/f/maqklked" 
-						method="POST" 
-						class="space-y-6"
-						id="vaelia-lead-form"
-					>
-						<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-							<div class="space-y-2">
-								<label for="name" class="block text-xs font-mono uppercase tracking-wider text-off-white">Name</label>
-								<input 
-									type="text" 
-									name="name" 
-									id="name" 
-									required
-									placeholder="John Doe"
-									class="w-full bg-brand-bg border border-brand-card hover:border-brand-teal/40 focus:border-brand-teal focus:ring-1 focus:ring-brand-teal rounded-lg py-3 px-4 text-off-white text-sm outline-none transition-colors"
-								/>
-							</div>
-							<div class="space-y-2">
-								<label for="email" class="block text-xs font-mono uppercase tracking-wider text-off-white">Email Address</label>
-								<input 
-									type="email" 
-									name="_replyto" 
-									id="email" 
-									required
-									placeholder="john.doe@company.com"
-									class="w-full bg-brand-bg border border-brand-card hover:border-brand-teal/40 focus:border-brand-teal focus:ring-1 focus:ring-brand-teal rounded-lg py-3 px-4 text-off-white text-sm outline-none transition-colors"
-								/>
-							</div>
-						</div>
-						
-						<div class="space-y-2">
-							<label for="message" class="block text-xs font-mono uppercase tracking-wider text-off-white">Inquiry Details</label>
-							<textarea 
-								name="message" 
-								id="message" 
-								rows="5"
-								required
-								placeholder="Describe your training objectives or team requirements..."
-								class="w-full bg-brand-bg border border-brand-card hover:border-brand-teal/40 focus:border-brand-teal focus:ring-1 focus:ring-brand-teal rounded-lg py-3 px-4 text-off-white text-sm outline-none transition-colors resize-none"
-							></textarea>
-						</div>
-
-						<!-- Formspree hidden inputs -->
-						<input type="hidden" name="_subject" value="New Vaelia Lead Submission" />
-						{#if thankYouUrl}
-							<input type="hidden" name="_next" value={thankYouUrl} />
-						{/if}
-						
-						<div class="flex items-center justify-between pt-2">
-							<button 
-								type="submit" 
-								id="lead-submit-btn"
-								class="btn-primary w-full sm:w-auto py-3 px-8 text-sm cursor-pointer"
-							>
-								Submit Request
-							</button>
-						</div>
-					</form>
-				</div>
-				
-				<!-- Hybrid Fast-Track Enrollment Option -->
-				<div class="mt-6 text-center">
-					<p class="text-sm text-text-gray/80">
-						Already determined you are a fit? 
-						<a 
-							href={stripePaymentUrl} 
-							target="_blank" 
-							rel="noopener noreferrer" 
-							class="text-brand-teal hover:text-brand-teal-light font-semibold underline decoration-2 decoration-brand-teal/30 hover:decoration-brand-teal-light transition-colors ml-1 inline-block"
-						>
-							Click here to enroll directly &rarr;
-						</a>
-					</p>
+					<a href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" class="btn-enroll">Join the Founding Cohort - $150</a>
+					<p class="founding-member-info">Founding Member Pilot: $450 value, introductory price $150. Limited to 5 seats.</p>
 				</div>
 			</div>
 
