@@ -383,6 +383,14 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="mt-8 flex justify-center">
+				<a href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" 
+					class="btn-primary-large" 
+					style="display: inline-block; padding: 1rem 2rem; background: #008080; color: white; font-weight: bold; border-radius: 8px; text-decoration: none;">
+					Join the Founding Cohort - $150
+				</a>
+			</div>
 		</div>
 	</div>
 
