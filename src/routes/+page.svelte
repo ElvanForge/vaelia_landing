@@ -60,7 +60,7 @@
 				
 				<div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
 					<a 
-						href="#enrollment" 
+						href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" 
 						id="hero-enroll-cta"
 						class="btn-primary w-full sm:w-auto text-center cursor-pointer"
 					>
@@ -359,8 +359,12 @@
 
 			<!-- Program Logistics Block -->
 			<div class="glow-card bg-brand-card/50 p-8 border border-brand-card/85 shadow-lg space-y-6">
-				<h2 class="text-2xl font-bold text-off-white font-display">Program Logistics</h2>
+				<h2 class="text-2xl font-bold text-off-white font-display">Founding Cohort Details</h2>
 				<div class="w-16 h-1 bg-brand-teal rounded-full"></div>
+				
+				<p class="text-sm font-bold text-off-white">
+					Join 5 other engineers in this exclusive Founding Pilot. Registration closes once the 5th seat is filled.
+				</p>
 				
 				<div class="space-y-6 text-sm text-text-gray">
 					<div class="space-y-1">
@@ -403,7 +407,7 @@
 			<!-- Footer CTA -->
 			<div class="text-center space-y-4">
 				<a 
-					href="#enrollment" 
+					href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" 
 					class="btn-primary py-3.5 px-8 text-base cursor-pointer"
 				>
 					Request Pilot Access
