@@ -30,7 +30,7 @@
 			</a>
 			
 			<nav class="flex items-center space-x-6 md:space-x-8 text-sm font-medium tracking-wide">
-				<a href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" class="hover:text-brand-teal transition-colors">Curriculum</a>
+				<a href="#curriculum" class="hover:text-brand-teal transition-colors">Curriculum</a>
 				<a href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" class="hover:text-brand-teal transition-colors">Pilot Program</a>
 				<a href="#inquiry-section" class="hover:text-brand-teal transition-colors">Inquire</a>
 			</nav>
@@ -70,7 +70,7 @@
 						Request Pilot Access
 					</a>
 					<a 
-						href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" 
+						href="#curriculum" 
 						class="w-full sm:w-auto px-6 py-3 text-center border border-brand-card hover:border-brand-teal/50 hover:bg-brand-card/50 rounded-lg text-off-white font-display font-semibold transition-all duration-200"
 					>
 						Explore Curriculum
@@ -241,7 +241,7 @@
 						<!-- Intermediate Navigation CTA -->
 						<div class="pt-4 text-center">
 							<a 
-								href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" 
+								href="#curriculum" 
 								class="inline-flex items-center space-x-2 text-brand-teal hover:text-brand-teal-light font-display font-semibold tracking-wide transition-colors"
 							>
 								<span>View Curriculum</span>
