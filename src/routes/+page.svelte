@@ -279,16 +279,17 @@
 							class="max-w-full h-auto object-cover opacity-80 hover:opacity-100 transition-opacity duration-300"
 						/>
 						<span class="absolute top-3 left-3 bg-brand-teal text-white text-[10px] font-mono font-bold tracking-wider px-2.5 py-1 rounded">
-							ACTIVE PILOT
+							NOW ENROLLING
 						</span>
 					</div>
 					
 					<div class="p-6 space-y-4">
 						<div class="text-xs font-mono text-brand-teal font-bold tracking-wide">01 // FOUNDATION</div>
-						<h3 class="text-xl font-bold text-off-white">Module 01: Technical Systems & Infrastructure</h3>
+						<h3 class="text-xl font-bold text-off-white">Module 01: Systems & Infrastructure (The Pilot Cohort)</h3>
 						<p class="text-sm text-text-gray leading-relaxed">
-							A comprehensive deep-dive into digital feedback loops, the evolution of cloud-based training, automated operational machinery, and sustainable urban infrastructure modeling, designed to bridge the gap between technical fluency and strategic communication.
+							Chapters 1–4. A comprehensive deep-dive into digital feedback loops, cloud-based tools, and automated machinery. Designed for B1+ Intermediate learners to master the technical lexicon and grammar—including Passive Voice and Conditionals—needed for high-stakes engineering communication.
 						</p>
+						<div class="text-xs font-mono text-brand-teal">Status: Now Enrolling.</div>
 					</div>
 				</div>
 			</div>
@@ -303,16 +304,17 @@
 							class="max-w-full h-auto object-cover opacity-80 hover:opacity-100 transition-opacity duration-300"
 						/>
 						<span class="absolute top-3 left-3 bg-[#1e293b] border border-brand-card text-brand-teal text-[10px] font-mono font-bold tracking-wider px-2.5 py-1 rounded">
-							PRERELEASE
+							UPCOMING
 						</span>
 					</div>
 					
 					<div class="p-6 space-y-4">
 						<div class="text-xs font-mono text-brand-teal font-bold tracking-wide">02 // DOCUMENTATION</div>
-						<h3 class="text-xl font-bold text-off-white">Module 02: Advanced Automation & Reliability</h3>
+						<h3 class="text-xl font-bold text-off-white">Module 02: Advanced Automation & Reliability (Upcoming)</h3>
 						<p class="text-sm text-text-gray leading-relaxed">
-							An in-depth analysis of machine-to-machine communication, automated triage protocols, and the technical governance required to maintain system reliability in decentralized environments.
+							Chapters 5–8. Advanced analysis of machine-to-machine communication, automated triage, and technical governance.
 						</p>
+						<div class="text-xs font-mono text-brand-teal">Status: Coming soon to Pilot graduates.</div>
 					</div>
 				</div>
 			</div>
@@ -327,16 +329,17 @@
 							class="max-w-full h-auto object-cover opacity-80 hover:opacity-100 transition-opacity duration-300"
 						/>
 						<span class="absolute top-3 left-3 bg-[#1e293b] border border-brand-card text-brand-teal/60 text-[10px] font-mono font-bold tracking-wider px-2.5 py-1 rounded">
-							IN DEVELOPMENT
+							UPCOMING
 						</span>
 					</div>
 					
 					<div class="p-6 space-y-4">
 						<div class="text-xs font-mono text-brand-teal font-bold tracking-wide">03 // LEADERSHIP</div>
-						<h3 class="text-xl font-bold text-off-white font-display">Module 03: Sustainable Urban Strategy</h3>
+						<h3 class="text-xl font-bold text-off-white font-display">Module 03: Sustainable Urban Strategy (Upcoming)</h3>
 						<p class="text-sm text-text-gray leading-relaxed">
-							A rigorous exploration of green infrastructure modeling, biodiversity management, and the policy-engineering interface necessary to build resilient, resource-efficient smart cities.
+							Chapters 9–12. Exploration of green infrastructure modeling and policy-engineering interfaces.
 						</p>
+						<div class="text-xs font-mono text-brand-teal">Status: Coming soon to Pilot graduates.</div>
 					</div>
 				</div>
 			</div>
@@ -350,15 +353,23 @@
 			<h2 class="text-3xl font-bold tracking-tight text-off-white font-display">Program Logistics</h2>
 			<div class="w-16 h-1 bg-brand-teal rounded-full"></div>
 			
-			<div class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8">
-				<div class="glow-card bg-brand-card/40 p-6 border border-brand-card">
-					<p class="text-text-gray leading-relaxed">
-						Pilot Cohort Schedule: Tuesdays & Thursdays at 18:00 Tbilisi Time. The program consists of 8 sessions split between Technical Briefings and Engineering Labs.
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8">
+				<div class="glow-card bg-brand-card/40 p-6 border border-brand-card space-y-2">
+					<h3 class="text-lg font-bold text-off-white">Schedule</h3>
+					<p class="text-text-gray leading-relaxed text-sm">
+						Pilot Cohort Schedule: Tuesdays & Thursdays at 18:00 UTC+4. This window is optimized for global engineering teams across EMEA and South Asia. The program consists of 8 sessions (4 Technical Briefings and 4 Engineering Labs).
 					</p>
 				</div>
-				<div class="glow-card bg-brand-card/40 p-6 border border-brand-card">
-					<p class="text-text-gray leading-relaxed">
-						Designed by a technical lead and curriculum developer, Vaelia is a technical communications workshop—not a language class—focused on the specific lexical and syntactic hurdles engineers face in high-stakes environments.
+				<div class="glow-card bg-brand-card/40 p-6 border border-brand-card space-y-2">
+					<h3 class="text-lg font-bold text-off-white">Support</h3>
+					<p class="text-text-gray leading-relaxed text-sm">
+						Each Lab session includes a scaffolded 'Phrase Bank' to ensure you can participate in complex technical debates with confidence, regardless of your current English level.
+					</p>
+				</div>
+				<div class="glow-card bg-brand-card/40 p-6 border border-brand-card space-y-2">
+					<h3 class="text-lg font-bold text-off-white">About Vaelia</h3>
+					<p class="text-text-gray leading-relaxed text-sm">
+						Engineered by a technical lead and curriculum developer, Vaelia provides a standardized framework for technical communication. We strip away general language 'filler' and focus exclusively on the precise syntax, professional lexicon, and boardroom dynamics required to operate at a native-level in high-stakes engineering environments.
 					</p>
 				</div>
 			</div>
@@ -389,7 +400,7 @@
 			<div class="lg:col-span-7 flex flex-col justify-between">
 				<div class="glow-card bg-brand-card/50 p-8 border border-brand-card/85 shadow-lg">
 					<a href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" class="btn-enroll">Join the Founding Cohort - $150</a>
-					<p class="founding-member-info">Founding Member Pilot: $450 value, introductory price $150. Limited to 5 seats.</p>
+					<p class="founding-member-info">Founding Member Pilot (Module 01): $450 value, introductory price $150. Limited to 5 seats available in the inaugural cohort.</p>
 				</div>
 			</div>
 
