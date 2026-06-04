@@ -1,4 +1,6 @@
 <script lang="ts">
+	import InquiryForm from '../components/InquiryForm.svelte';
+
 	// State for slot capacity tracker
 	let remainingSlots = $state(2);
 </script>
@@ -30,7 +32,7 @@
 			<nav class="flex items-center space-x-6 md:space-x-8 text-sm font-medium tracking-wide">
 				<a href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" class="hover:text-brand-teal transition-colors">Curriculum</a>
 				<a href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" class="hover:text-brand-teal transition-colors">Pilot Program</a>
-				<a href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" class="hover:text-brand-teal transition-colors">Inquire</a>
+				<a href="#inquiry-section" class="hover:text-brand-teal transition-colors">Inquire</a>
 			</nav>
 		</div>
 	</header>
@@ -386,6 +388,8 @@
 			</div>
 		</div>
 	</div>
+
+	<InquiryForm />
 
 	<!-- Footer -->
 	<footer class="bg-brand-bg py-16 px-6 border-t border-brand-card/50 text-xs">
