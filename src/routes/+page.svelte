@@ -1,8 +1,5 @@
 <script lang="ts">
 	import InquiryForm from '../components/InquiryForm.svelte';
-
-	// State for slot capacity tracker
-	let remainingSlots = $state(2);
 </script>
 
 <svelte:head>
@@ -90,7 +87,7 @@
 						<svg class="w-4 h-4 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
 						</svg>
-						<span>{remainingSlots} spots remaining</span>
+						<span>Limited to 5 seats.</span>
 					</div>
 				</div>
 			</div>
@@ -357,7 +354,7 @@
 			<!-- Enroll Block (where the old form used to be) -->
 			<div class="glow-card bg-brand-card/50 p-8 border border-brand-card/85 shadow-lg text-center space-y-4">
 				<a href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" class="btn-enroll">Join the Founding Cohort - $150</a>
-				<p class="founding-member-info">Founding Member Pilot (Module 01): $450 value, introductory price $150. Limited to 5 seats available in the inaugural cohort.</p>
+				<p class="founding-member-info">Founding Member Pilot (Module 01): $450 value, introductory price $150. Limited to 5 seats.</p>
 			</div>
 
 			<!-- Program Logistics Block -->
