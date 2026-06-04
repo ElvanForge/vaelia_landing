@@ -31,7 +31,7 @@
 			
 			<nav class="flex items-center space-x-6 md:space-x-8 text-sm font-medium tracking-wide">
 				<a href="#curriculum" class="hover:text-brand-teal transition-colors">Curriculum</a>
-				<a href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" class="hover:text-brand-teal transition-colors">Pilot Program</a>
+				<a href="#pilot" class="hover:text-brand-teal transition-colors">Pilot Program</a>
 				<a href="#inquiry-section" class="hover:text-brand-teal transition-colors">Inquire</a>
 			</nav>
 		</div>
@@ -63,7 +63,7 @@
 				
 				<div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
 					<a 
-						href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" 
+						href="#enrollment" 
 						id="hero-enroll-cta"
 						class="btn-primary w-full sm:w-auto text-center cursor-pointer"
 					>
@@ -350,7 +350,7 @@
 	</section>
 
 	<!-- Direct Enrollment & Program Logistics Section -->
-	<div class="py-24 px-6 bg-brand-card/20 border-t border-brand-card/40 relative overflow-hidden">
+	<div id="enrollment" class="py-24 px-6 bg-brand-card/20 border-t border-brand-card/40 relative overflow-hidden">
 		<div class="absolute bottom-0 right-0 w-[40%] h-[40%] bg-brand-teal/5 rounded-full blur-[100px] pointer-events-none z-0"></div>
 
 		<div class="max-w-3xl mx-auto relative z-10 space-y-12">
@@ -398,7 +398,7 @@
 			<!-- Footer CTA -->
 			<div class="text-center space-y-4">
 				<a 
-					href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" 
+					href="#enrollment" 
 					class="btn-primary py-3.5 px-8 text-base cursor-pointer"
 				>
 					Request Pilot Access
