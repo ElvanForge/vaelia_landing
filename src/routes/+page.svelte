@@ -28,9 +28,9 @@
 			</a>
 			
 			<nav class="flex items-center space-x-6 md:space-x-8 text-sm font-medium tracking-wide">
-				<a href="#curriculum" class="hover:text-brand-teal transition-colors">Curriculum</a>
-				<a href="#pilot" class="hover:text-brand-teal transition-colors">Pilot Program</a>
-				<a href="#apply" class="hover:text-brand-teal transition-colors">Inquire</a>
+				<a href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" class="hover:text-brand-teal transition-colors">Curriculum</a>
+				<a href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" class="hover:text-brand-teal transition-colors">Pilot Program</a>
+				<a href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" class="hover:text-brand-teal transition-colors">Inquire</a>
 			</nav>
 		</div>
 	</header>
@@ -61,14 +61,14 @@
 				
 				<div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
 					<a 
-						href="#apply" 
+						href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" 
 						id="hero-enroll-cta"
 						class="btn-primary w-full sm:w-auto text-center cursor-pointer"
 					>
 						Request Pilot Access
 					</a>
 					<a 
-						href="#curriculum" 
+						href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" 
 						class="w-full sm:w-auto px-6 py-3 text-center border border-brand-card hover:border-brand-teal/50 hover:bg-brand-card/50 rounded-lg text-off-white font-display font-semibold transition-all duration-200"
 					>
 						Explore Curriculum
@@ -239,7 +239,7 @@
 						<!-- Intermediate Navigation CTA -->
 						<div class="pt-4 text-center">
 							<a 
-								href="#curriculum" 
+								href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" 
 								class="inline-flex items-center space-x-2 text-brand-teal hover:text-brand-teal-light font-display font-semibold tracking-wide transition-colors"
 							>
 								<span>View Curriculum</span>
@@ -347,65 +347,45 @@
 		</div>
 	</section>
 
-	<!-- Program Logistics -->
-	<div id="logistics" class="py-24 px-6 max-w-7xl mx-auto border-t border-brand-card/40">
-		<div class="space-y-6">
-			<h2 class="text-3xl font-bold tracking-tight text-off-white font-display">Program Logistics</h2>
-			<div class="w-16 h-1 bg-brand-teal rounded-full"></div>
-			
-			<div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8">
-				<div class="glow-card bg-brand-card/40 p-6 border border-brand-card space-y-2">
-					<h3 class="text-lg font-bold text-off-white">Schedule</h3>
-					<p class="text-text-gray leading-relaxed text-sm">
-						Pilot Cohort Schedule: Tuesdays & Thursdays at 18:00 UTC+4. This window is optimized for global engineering teams across EMEA and South Asia. The program consists of 8 sessions (4 Technical Briefings and 4 Engineering Labs).
-					</p>
-				</div>
-				<div class="glow-card bg-brand-card/40 p-6 border border-brand-card space-y-2">
-					<h3 class="text-lg font-bold text-off-white">Support</h3>
-					<p class="text-text-gray leading-relaxed text-sm">
-						Each Lab session includes a scaffolded 'Phrase Bank' to ensure you can participate in complex technical debates with confidence, regardless of your current English level.
-					</p>
-				</div>
-				<div class="glow-card bg-brand-card/40 p-6 border border-brand-card space-y-2">
-					<h3 class="text-lg font-bold text-off-white">About Vaelia</h3>
-					<p class="text-text-gray leading-relaxed text-sm">
-						Engineered by a technical lead and curriculum developer, Vaelia provides a standardized framework for technical communication. We strip away general language 'filler' and focus exclusively on the precise syntax, professional lexicon, and boardroom dynamics required to operate at a native-level in high-stakes engineering environments.
-					</p>
+	<!-- Direct Enrollment & Program Logistics Section -->
+	<div class="py-24 px-6 bg-brand-card/20 border-t border-brand-card/40 relative overflow-hidden">
+		<div class="absolute bottom-0 right-0 w-[40%] h-[40%] bg-brand-teal/5 rounded-full blur-[100px] pointer-events-none z-0"></div>
+
+		<div class="max-w-3xl mx-auto relative z-10 space-y-12">
+			<!-- Enroll Block (where the old form used to be) -->
+			<div class="glow-card bg-brand-card/50 p-8 border border-brand-card/85 shadow-lg text-center space-y-4">
+				<a href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" class="btn-enroll">Join the Founding Cohort - $150</a>
+				<p class="founding-member-info">Founding Member Pilot (Module 01): $450 value, introductory price $150. Limited to 5 seats available in the inaugural cohort.</p>
+			</div>
+
+			<!-- Program Logistics Block -->
+			<div class="glow-card bg-brand-card/50 p-8 border border-brand-card/85 shadow-lg space-y-6">
+				<h2 class="text-2xl font-bold text-off-white font-display">Program Logistics</h2>
+				<div class="w-16 h-1 bg-brand-teal rounded-full"></div>
+				
+				<div class="space-y-6 text-sm text-text-gray">
+					<div class="space-y-1">
+						<h3 class="font-bold text-off-white">Schedule</h3>
+						<p class="leading-relaxed">
+							Pilot Cohort Schedule: Tuesdays & Thursdays at 18:00 UTC+4. This window is optimized for global engineering teams across EMEA and South Asia. The program consists of 8 sessions (4 Technical Briefings and 4 Engineering Labs).
+						</p>
+					</div>
+					<div class="space-y-1">
+						<h3 class="font-bold text-off-white">Support</h3>
+						<p class="leading-relaxed">
+							Each Lab session includes a scaffolded 'Phrase Bank' to ensure you can participate in complex technical debates with confidence, regardless of your current English level.
+						</p>
+					</div>
+					<div class="space-y-1">
+						<h3 class="font-bold text-off-white">About Vaelia</h3>
+						<p class="leading-relaxed">
+							Engineered by a technical lead and curriculum developer, Vaelia provides a standardized framework for technical communication. We strip away general language 'filler' and focus exclusively on the precise syntax, professional lexicon, and boardroom dynamics required to operate at a native-level in high-stakes engineering environments.
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<!-- Lead Contact Form Section -->
-	<section id="apply" class="py-24 px-6 bg-brand-card/20 border-t border-brand-card/40 relative overflow-hidden">
-		
-		<div class="absolute bottom-0 right-0 w-[40%] h-[40%] bg-brand-teal/5 rounded-full blur-[100px] pointer-events-none z-0"></div>
-
-		<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 relative z-10">
-			
-			<!-- Left column: Form Explanation -->
-			<div class="lg:col-span-5 space-y-6 lg:py-6 text-left">
-				<span class="text-xs uppercase tracking-widest text-brand-teal font-semibold font-mono">GET IN TOUCH</span>
-				<h2 class="text-3xl md:text-4xl font-bold tracking-tight text-off-white font-display">Request Pilot Access</h2>
-				<p class="text-base text-text-gray leading-relaxed">
-					For team packages, institutional training, or individual pilot enrollment:
-				</p>
-				
-				<p class="text-sm text-text-gray/80 leading-relaxed font-mono bg-brand-bg/50 border border-brand-card/80 rounded-lg p-4">
-					For direct inquiries, contact me at david@elvanforge.com. I review every submission personally to ensure a productive pilot cohort.
-				</p>
-			</div>
-
-			<!-- Right column: The Form block -->
-			<div class="lg:col-span-7 flex flex-col justify-between">
-				<div class="glow-card bg-brand-card/50 p-8 border border-brand-card/85 shadow-lg">
-					<a href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" class="btn-enroll">Join the Founding Cohort - $150</a>
-					<p class="founding-member-info">Founding Member Pilot (Module 01): $450 value, introductory price $150. Limited to 5 seats available in the inaugural cohort.</p>
-				</div>
-			</div>
-
-		</div>
-	</section>
 
 	<!-- Footer -->
 	<footer class="bg-brand-bg py-16 px-6 border-t border-brand-card/50 text-xs">
@@ -414,7 +394,7 @@
 			<!-- Footer CTA -->
 			<div class="text-center space-y-4">
 				<a 
-					href="#apply" 
+					href="https://buy.stripe.com/6oUfZj2w7eFBevabk2bjW05" 
 					class="btn-primary py-3.5 px-8 text-base cursor-pointer"
 				>
 					Request Pilot Access
